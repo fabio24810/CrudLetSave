@@ -1,0 +1,141 @@
+
+/*OJO la diferencia entre menú principal clientes y menu rincipal publico es el código habilitado/ inhabilitado como
+comentarios, así uno actúa mientras otro no
+*/
+
+nav {
+    background-color: #005da8;
+    height: 100px;
+}
+
+.margen-seguro-menu {
+    /*background-color: white;*/
+    height: 80px;
+    position: relative;
+    top: 10px;
+}
+
+.menu-fondo {
+    background-color: #005da8;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+}
+
+/*menu clientes*/
+nav img {
+    height: 80px;
+}
+
+
+/*menu publico
+nav img {
+    height: 80px;
+}
+*/
+
+.boton-menu {
+   /*background-color: purple;*/
+    height: 80px;
+/*    width: 80px;*/
+    display: inline-block;
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+.boton-menu:hover {
+    border-bottom: 5px solid #fcb426;
+}
+
+.boton-mostrar-menu-movil, .menu-movil, .boton-menu-movil {
+    display: none;
+}
+
+
+/*menú clientes*/
+@media only screen and (max-width: 800px) {
+    .boton-menu {
+        display: none;
+    }
+    
+    .boton-mostrar-menu-movil {
+        /*background-color: purple;*/
+        height: 80px;
+        /*width: 80px;*/
+        display: inline-block;
+        float: right;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        padding-top: 30px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .boton-mostrar-menu-movil:hover {
+        color: #fcb426;
+    }
+    
+    .menu-movil {
+        background-color: #005da8;
+        display: none; /*por defecto está escondido hasta que se presion el botón del menú*/
+        position: sticky;
+        top: 100px;
+    }
+
+    .boton-menu-movil {
+        color: white;
+        text-align: center;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+    }
+}
+
+
+/*menú publico
+@media only screen and (max-width: 100px) {
+    .boton-menu {
+        display: none;
+    }
+    
+    .boton-mostrar-menu-movil {
+        /*background-color: purple;
+        height: 80px;
+    /*    width: 80px;
+        display: inline-block;
+        float: right;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        padding-top: 30px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .boton-mostrar-menu-movil:hover {
+        color: #fcb426;
+    }
+    
+    .menu-movil {
+        background-color: #005da8;
+        display: none; /*por defecto está escondido hasta que se presion el botón del menú
+    }
+
+    .boton-menu-movil {
+        color: white;
+        text-align: center;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+    }
+}
+*/

@@ -1,0 +1,38 @@
+/*************************************** margenes*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fafafa;
+}
+
+.margen-seguro-1 {
+    /*background-color: orange;*/
+    /*height: 100px;*/
+    max-width: 1500px;
+    margin: auto;
+}
+
+.margen-seguro-2 {
+    /*background-color: yellowgreen;*/
+    /*height: 100px;*/
+    width: 90%;
+    margin: auto;
+}
+
+.separador-1 {
+    height: 30px;
+    /*background-color:crimson;*/
+}
+
+.alto-pagina {
+    /*background-color:darkgoldenrod;*/
+    min-height: 100vh;
+    position: relative;
+}
+
+.separador-2 {
+    /*background-color:darkviolet;*/
+    height: 15px;
+}

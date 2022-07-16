@@ -1,0 +1,60 @@
+
+
+
+/**************************** grid contenedor */
+
+.gridContenedor {
+    display: grid;
+    /* dos columnas para cada grid, cada producto tiene su propio grid */
+    grid-template-columns: 100px auto 149px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+    padding: 10px;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+/*************************** grid item 1 */
+
+.gridItem1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0px;
+}
+
+/*************************** grid item 2 */
+
+.gridItem2 {
+    width: 100px;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+/*************************** grid item 3 */
+
+.subtitulo {
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px;
+}
+
+.gridItem3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+/*************************** grid item 4 */
+
+.gridItem4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/*************************** total */
+
+.total {
+    font-size: 30px;
+}

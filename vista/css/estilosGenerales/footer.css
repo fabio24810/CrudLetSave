@@ -1,0 +1,17 @@
+
+/************************************* footer */
+
+footer {
+    background-color: #005da8;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    color: white;
+}
+
+.falso-footer {
+    /*background-color: orangered;*/
+    height: 80px;
+}

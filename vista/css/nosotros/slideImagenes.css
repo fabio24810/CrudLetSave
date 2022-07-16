@@ -1,0 +1,38 @@
+
+
+/************************************* slides imagenes página nosotros */
+
+.imagen-mostrada {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.controles-imagenes {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: auto;
+    background-color: lightgray;
+    text-align: center;
+    user-select: none;
+}
+
+.control-siguiente {
+    grid-column: 2;
+    padding: 10px;
+}
+
+.control-anterior:hover {
+    cursor: pointer;
+    background-color: rgb(156, 156, 156);
+}
+
+.control-siguiente:hover {
+    cursor: pointer;
+    background-color: rgb(156, 156, 156);
+}
+
+.control-anterior {
+    grid-column: 1;
+    padding: 10px;
+}

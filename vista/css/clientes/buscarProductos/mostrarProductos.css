@@ -1,0 +1,84 @@
+/********************************** botones */
+
+[type='button'], [type='submit'], select {
+    display: block;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+[type='text'] {
+    display: block;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+select:hover {
+    background-color: #d8d8d8;
+    cursor: pointer;
+}
+
+[type='button'], [type='submit'] {
+    background-color: #fbb226;
+}
+
+[type='button']:hover, [type='submit']:hover {
+    background-color: #f8ca75;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*********************************** grid para mostrar productos en buscar producto, carrito de compras y confirmación de compra resumen */
+
+/* subtitulos de producto, es decir nombre, descripcion, etc. */
+
+.subtitulo {
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px;
+}
+
+/* grid tamaño normal */
+
+.gridContenedor {
+    display: grid;
+    /* repeat(auto-fill, minmax(300px, auto)) es para que se repita indefinidamente que todas las columnas tengan 300px de ancho y auto de alto */
+    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    gap: 15px;
+}
+
+.gridItem {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+    box-sizing:border-box;
+    padding: 10px;
+}
+
+.gridItem form img {
+    width: 280px;
+    height: 280px;
+}
+
+
+.gridItem form input {
+    display: block;
+    width: 280px;
+    margin-top: 10px;
+}
+
+.gridItem form  [type='number'] {
+    width: 272px;
+}
+
+

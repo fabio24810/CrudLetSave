@@ -1,0 +1,79 @@
+input {
+    height: 20px;
+}
+
+
+
+/**************************** grid datos contenedor  tarjeta y datos usuario */
+
+.gridContenedorDatos {
+    display: grid;
+    /* dos columnas para cada grid, cada producto tiene su propio grid */
+    grid-template-columns: 30% 200px;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+/* grid item datos tarjetas y usuario */
+
+.itemDatos {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0px;
+}
+
+/**************************** grid item contenedor */
+
+.gridContenedorItem {
+    display: grid;
+    /* dos columnas para cada grid, cada producto tiene su propio grid */
+    grid-template-columns: 100px auto auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+    padding: 10px;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+/* grid item 0 */
+
+.gridItem0 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: 0px;
+}
+
+/* grid item 1 */
+
+.gridItem1 {
+    width: 100px;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+/* grid item 2 */
+
+.gridItem2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.subtitulo {
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px;
+}
+
+/* grid item 3 */
+
+.gridItem3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+/* totales */
+
+.total {
+    font-size: 30px;
+}
